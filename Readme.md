@@ -1,6 +1,7 @@
 Llama3模型 Int4 CUDA推理项目
 
 已经完成 Meta-Llama-3-8B 跑通 ｜ 测试
+
 生成样例:
 
     问题1: who is kobe?
@@ -42,6 +43,7 @@ Llama3模型 Int4 CUDA推理项目
 
 
 TODO:
+
     现有推理代码接入Page-Attention、进一步提升模型推理速度
     实现安卓端端侧部署Llama-3-8B代码、参考链接: https://github.com/ggerganov/llama.cpp
 
@@ -62,6 +64,7 @@ TODO:
 
 Re2:
 https://fuchsia.googlesource.com/third_party/re2/+/refs/heads/main  
-下载链接: https://fuchsia.googlesource.com/third_party/re2/+archive/refs/heads/main.tar.gz(下载版本较老、新版本与当前项目冲突)
+下载链接: https://fuchsia.googlesource.com/third_party/re2/+archive/refs/heads/main.tar.gz
+    (下载版本较老、新版本与当前项目冲突)
 
 Abseil: https://github.com/abseil/abseil-cpp
