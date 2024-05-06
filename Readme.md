@@ -3,6 +3,7 @@ Llama3模型 Int4 CUDA推理项目
 已经完成 Meta-Llama-3-8B 跑通 ｜ 测试
 
 生成样例:
+
     问题1: who is kobe?
     答案1: Kobe Bryant is a professional basketball player for the Los Angeles Lakers of the National Basketball Association (NBA). He is considered one of the greatest basketball players of all time, having won five NBA championships, two Olympic gold medals, and numerous individual awards. Bryant is known for his exceptional athletic ability, including his ability to score from various positions on the court and his relentless work ethic. He retired from basketball in 2016 after a 20-year career, but remains involved in the sport as an ambassador and investor.<|end_of_text|>
 
