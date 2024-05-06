@@ -1,0 +1,1 @@
+python3 convert_awq_to_bin.py llama3_awq_download_cache/pytorch_model.bin output

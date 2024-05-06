@@ -1,0 +1,1 @@
+./main  llama3-8b-awq-q4.bin  -n 512 -i "who is kobe?"
