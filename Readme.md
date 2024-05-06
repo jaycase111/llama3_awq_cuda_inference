@@ -12,7 +12,8 @@ Llama3模型 Int4 CUDA推理项目
 
 
 
-推理速度
+推理速度:
+
     模型选型: 8B
     显卡选型: T4
     生成速度: 35Token/s
@@ -22,6 +23,7 @@ Llama3模型 Int4 CUDA推理项目
 
 
 特性:
+
     (1) 支持Llama3-TikToken C++ 分词器
     (2) 支持原始模型 AWQ 量化转换 
         详情见: awq_quant.py 量化对齐数据使用默认数据生成效果较差
@@ -32,6 +34,7 @@ Llama3模型 Int4 CUDA推理项目
 
 
 参考库:
+
     https://github.com/ankan-ban/llama_cu_awq
     https://github.com/sewenew/tokenizer
     https://github.com/casper-hansen/AutoAWQ
@@ -46,6 +49,7 @@ TODO:
 
 
 运行过程:
+
     1、cmake .
     2、make
     3、按照python_awq_quant/Readme.md 步骤生成CPP推理模型、命名为 llama3-8b-awq-q4.bin (8B推理)
@@ -55,7 +59,9 @@ TODO:
 
 
 依赖库:
+
 Re2:
 https://fuchsia.googlesource.com/third_party/re2/+/refs/heads/main  
 下载链接: https://fuchsia.googlesource.com/third_party/re2/+archive/refs/heads/main.tar.gz(下载版本较老、新版本与当前项目冲突)
+
 Abseil: https://github.com/abseil/abseil-cpp
