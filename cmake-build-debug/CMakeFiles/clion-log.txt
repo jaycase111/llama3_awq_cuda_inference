@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/jaycase/Desktop/cuda/llama3_awq_cuda_inference
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeDetermineCUDACompiler.cmake:166 (message):
+  Could not find nvcc, please set CUDAToolkit_ROOT.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/jaycase/Desktop/cuda/llama3_awq_cuda_inference/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/jaycase/Desktop/cuda/llama3_awq_cuda_inference/cmake-build-debug/CMakeFiles/CMakeError.log".
